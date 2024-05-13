@@ -144,7 +144,7 @@
     # repositories to be installed in sources/ dir
     # syntax: the same as git clone
     'git-repos': [
-        'https://github.com/regaby/cl-odoo15.git',
+        'https://github.com/nahuuss/cl-odoo15.git',
         'https://github.com/regaby/odoo-custom.git -b 15.0-adhoc',
         'https://github.com/hormigaG/odoo-argentina-ce.git -b 15.0_refact',
         'https://github.com/OCA/reporting-engine.git',
@@ -155,7 +155,7 @@
     # Docker images to be used in this deployment
     # syntax: name url
     'docker-images': [
-        'odoo regaby/odoo-ce:15.0',
-        'postgres postgres:10.1-alpine',
+        'odoo nahuusss/zlood',
+        'postgres nahuusss/postzl',
     ]
 }
